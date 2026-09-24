@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#171923"/>
+    <stop offset="1" stop-color="#272b3a"/>
+  </linearGradient>
+  <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ff5b62"/>
+    <stop offset="1" stop-color="#b91f35"/>
+  </linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="14" stdDeviation="16" flood-opacity=".35"/>
+  </filter>
+</defs>
+
+<rect width="1080" height="1350" fill="url(#bg)"/>
+<circle cx="930" cy="120" r="180" fill="#3b4052" opacity=".35"/>
+<circle cx="120" cy="1190" r="250" fill="#3b4052" opacity=".25"/>
+
+<!-- decorative mini crewmates -->
+<g transform="translate(805 175) scale(.65)" filter="url(#shadow)">
+  <path d="M90 250V130C90 55 145 15 220 15s130 40 130 115v120H285v55H155v-55z" fill="url(#red)" stroke="#0c0d12" stroke-width="18"/>
+  <path d="M185 73h112c42 0 65 25 65 61s-23 61-65 61H185z" fill="#b9e9f3" stroke="#0c0d12" stroke-width="16"/>
+  <path d="M200 91h86c23 0 37 13 37 31s-14 31-37 31h-86z" fill="#dff8ff"/>
+  <rect x="40" y="205" width="90" height="72" rx="30" fill="#a91e31" stroke="#0c0d12" stroke-width="18"/>
+</g>
+
+<!-- header -->
+<text x="70" y="100" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#aeb4c7" letter-spacing="5">PROSSIMA ATTIVITÀ</text>
+<text x="70" y="205" font-family="Arial, Helvetica, sans-serif" font-size="106" font-weight="900" fill="white" letter-spacing="2">AMONG US</text>
+<text x="74" y="270" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#ff5862">IRL 👀</text>
+
+<!-- main hook -->
+<rect x="60" y="335" width="960" height="210" rx="34" fill="#f4f5f7" filter="url(#shadow)"/>
+<text x="100" y="410" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="900" fill="#191b24">TRA I CREWMATE...</text>
+<text x="100" y="485" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="900" fill="#d62f45">C'È UN IMPOSTORE.</text>
+<text x="100" y="525" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="600" fill="#555b6e">Task • incontri • sospetti • riunioni • tradimenti</text>
+
+<!-- outfit section -->
+<text x="70" y="635" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900" fill="white">🎒 VUOI ENTRARE NEL PERSONAGGIO?</text>
+<text x="70" y="690" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="500" fill="#d5d8e2">Se vuoi, porta qualcosa per trasformarti in un vero</text>
+<text x="70" y="735" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="500" fill="#d5d8e2">crewmate: <tspan font-weight="800" fill="white">felpa, cappello, zaino, vestiti del tuo colore...</tspan></text>
+<text x="70" y="780" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="500" fill="#aeb4c7">Non serve comprare nulla: anche una cosa semplice va benissimo!</text>
+
+<!-- participation -->
+<rect x="60" y="840" width="960" height="260" rx="34" fill="#202331" stroke="#4b5063" stroke-width="3"/>
+<text x="100" y="905" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="900" fill="#ffdc5d">🤝 LA PARTE PIÙ IMPORTANTE</text>
+<text x="100" y="965" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="600" fill="white">L'attività funziona davvero solo se ci mettiamo</text>
+<text x="100" y="1010" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="600" fill="white">un po' di gioco, collaborazione e voglia di stare al gioco.</text>
+<text x="100" y="1060" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#b9bfd0">Fate le task, sospettate, bluffate e soprattutto... divertitevi!</text>
+
+<!-- footer -->
+<text x="540" y="1195" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="900" fill="white">🚀 CI VEDIAMO A BORDO!</text>
+<text x="540" y="1250" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600" fill="#aeb4c7">Preparati. Potresti non sapere di chi fidarti.</text>
+
+<!-- little red crewmate bottom -->
+<g transform="translate(455 1270) scale(.38)">
+  <path d="M90 250V130C90 55 145 15 220 15s130 40 130 115v120H285v55H155v-55z" fill="url(#red)" stroke="#0c0d12" stroke-width="18"/>
+  <path d="M185 73h112c42 0 65 25 65 61s-23 61-65 61H185z" fill="#b9e9f3" stroke="#0c0d12" stroke-width="16"/>
+  <path d="M200 91h86c23 0 37 13 37 31s-14 31-37 31h-86z" fill="#dff8ff"/>
+  <rect x="40" y="205" width="90" height="72" rx="30" fill="#a91e31" stroke="#0c0d12" stroke-width="18"/>
+</g>
+</svg>
