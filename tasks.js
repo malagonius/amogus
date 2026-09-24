@@ -31,7 +31,7 @@ const tasks = [
   { category: "Sociali", icon: "😂", text: "Fai ridere qualcuno. (Un muto dice a un sordo, quel cieco ci spia)" },
   { category: "Sociali", icon: "🤝", text: "Trova qualcuno che ha qualcosa in comune con te." },
   { category: "Sociali", icon: "👋", text: "Presentati a qualcuno con cui hai parlato poco." },
-  { category: "Sociali", icon: "🕵️", text: "Caccia fotografica: trova e fotografa qualcosa blu, qualcosa di vecchio, qualcosa di nuovo" },
+  { category: "Sociali", icon: "", text: "Caccia fotografica: trova e fotografa qualcosa blu, qualcosa di vecchio, qualcosa di nuovo" },
   { category: "Sociali", icon: "🤫", text: "Confidati con qualcuno. Puoi anche mentire." },
   { category: "Sociali", icon: "📢", text: "Di’ al pulpito che stai facendo una task." },
   { category: "Sociali", icon: "✋", text: "Stringi la mano a 10 persone." },
