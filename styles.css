@@ -4,8 +4,8 @@
 }
 
 :root {
-  --card-width: 85mm;
-  --card-height: 55mm;
+  --card-width: 90mm;
+  --card-height: 60mm;
   --page-width: 210mm;
   --page-height: 297mm;
   --page-gap-x: 10mm;
@@ -170,12 +170,12 @@ body {
     width: 210mm;
     min-height: 297mm;
     margin: 0;
-    padding: 11mm 20mm;
-    grid-template-columns: repeat(2, 85mm);
-    grid-template-rows: repeat(5, 55mm);
-    grid-auto-rows: 55mm;
-    column-gap: 10mm;
-    row-gap: 4mm;
+    padding: 10mm;
+    grid-template-columns: repeat(2, var(--card-width));
+    grid-template-rows: repeat(4, var(--card-height));
+    grid-auto-rows: var(--card-height);
+    column-gap: var(--page-gap-x);
+    row-gap: var(--page-gap-y);
     align-content: start;
   }
 
