@@ -18,7 +18,7 @@ const tasks = [
 
   // INTELLETTUALI
   { category: "Intellettuali", icon: "🔢", text: "Elenca i numeri in ordine: 47, 12, 83, 26, 91, 35, 68, 14, 57, 72." },
-  { category: "Intellettuali", icon: "🧠", text: "Ricorda la sequenza: ↑ ↑ ↓ ↓ ← → ← → B A ↓ ↓ ↑ ↑ → ← → ← B A. Dopo averla memorizzata, ripetila nell’ordine corretto." },
+  { category: "Intellettuali", icon: "🧠", text: "Memorizza la sequenza e ripetila correttamente: ↑ ↑ ↓ ↓ ← → ← → B A ↓ ↓ ↑ ↑ → ← → ← B A." },
   { category: "Intellettuali", icon: "🔐", text: "Decifra il codice usando la legenda: ○ ☘ ♫ ☾ ♢ ☺ ⚓" },
   { category: "Intellettuali", icon: "🔐", text: "Decifra il codice usando la legenda: ☠ ♥ ☠ ○ ♢ ☆ ⚓ ☺" },
   { category: "Intellettuali", icon: "🔐", text: "Decifra il codice usando la legenda: ♧ ○ ☾ ⚽ ○ ⚓ ⚽ ♥ □ ♫" },
