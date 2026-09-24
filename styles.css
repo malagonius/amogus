@@ -111,6 +111,8 @@ body {
 
 .category {
   color: var(--accent);
+  font-size: 4mm;
+  margin-top: 2px;
 }
 
 .number {
@@ -120,13 +122,13 @@ body {
 .task-icon {
   font-size: 11mm;
   line-height: 1;
-  margin-top: 5mm;
+  margin-top: -2mm;
   margin-bottom: 3mm;
 }
 
 .task-text {
   max-width: 72mm;
-  font-size: 5.2mm;
+  font-size: 6.2mm;
   line-height: 1.15;
   font-weight: 700;
 }
