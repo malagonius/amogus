@@ -1,14 +1,19 @@
 const tasks = [
   // RELIGIOSE
-  { category: "Religiose", icon: "📖", text: "Di che cosa parla pagina [123]?" },
-  { category: "Religiose", icon: "🔎", text: "In che pagina si trova [versetto]?" },
-  { category: "Religiose", icon: "🕵️", text: "Indovina il personaggio." },
+  { category: "Religiose", icon: "📖", text: "Di che cosa parla pagina [TBD]?" },
+  { category: "Religiose", icon: "🔎", text: "In che pagina si trova Alma 32:21?" },
+  { category: "Religiose", icon: "🔎", text: "In che pagina si trova 1 Nefi 3:7?" },
+  { category: "Religiose", icon: "🔎", text: "In che pagina si trova Helaman 5:12?" },
+  { category: "Religiose", icon: "🕵️", text: "Indovina il personaggio: si è battezzato tardi, ma insegnava bene il Vangelo." },
   { category: "Religiose", icon: "❤️", text: "Di’ 3 cose positive della tua famiglia." },
   { category: "Religiose", icon: "🫶", text: "Elenca 4 caratteristiche del tuo migliore amico." },
   { category: "Religiose", icon: "💌", text: "Scrivi un messaggio di ringraziamento a qualcuno." },
-  { category: "Religiose", icon: "🗣️", text: "Predica lampo: parla per 30 secondi su una parola pescata." },
-  { category: "Religiose", icon: "🎵", text: "Canta un inno, includendo la parte che contiene una parola data." },
-  { category: "Religiose", icon: "📸", text: "Foto simbolica: trova un oggetto che rappresenti un principio del Vangelo." },
+  { category: "Religiose", icon: "🗣️", text: "Predica lampo: parla per 30 secondi sulla FEDE." },
+  { category: "Religiose", icon: "🗣️", text: "Predica lampo: parla per 30 secondi sul PENTIMENTO." },
+  { category: "Religiose", icon: "🗣️", text: "Predica lampo: parla per 30 secondi sul BATTESIMO." },
+  { category: "Religiose", icon: "🗣️", text: "Predica lampo: parla per 30 secondi sullo SPIRITO SANTO." },
+  { category: "Religiose", icon: "🗣️", text: "Predica lampo: parla per 30 secondi sulla PERSEVERANZA." },
+  { category: "Religiose", icon: "🎵", text: "Canta «Come vi ho amati»." },
   { category: "Religiose", icon: "🤝", text: "Fai un complimento sincero a qualcuno." },
 
   // INTELLETTUALI
