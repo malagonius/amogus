@@ -10,18 +10,19 @@
       width: 210mm;
       min-height: 297mm;
       margin: 0 auto;
-      padding: 15mm;
+      padding: 12mm 15mm;
       background: white;
+      box-sizing: border-box;
     }
 
     .legend-page h1 {
-      margin: 0 0 4mm;
+      margin: 0 0 3mm;
       text-align: center;
       font-size: 9mm;
     }
 
     .legend-page p {
-      margin: 0 0 10mm;
+      margin: 0 0 6mm;
       text-align: center;
       color: #555;
       font-size: 4mm;
@@ -31,13 +32,13 @@
       width: 100%;
       border-collapse: collapse;
       table-layout: fixed;
-      font-size: 5mm;
+      font-size: 4.5mm;
     }
 
     .legend-table th,
     .legend-table td {
       border: 0.35mm solid #222;
-      padding: 3mm;
+      padding: 2mm;
       text-align: center;
     }
 
@@ -47,14 +48,13 @@
     }
 
     .legend-symbol {
-      font-size: 7mm;
+      font-size: 6mm;
       font-weight: 700;
     }
 
     @media print {
       .legend-page {
         margin: 0;
-        padding: 15mm;
       }
     }
   </style>
@@ -69,35 +69,24 @@
         <tr>
           <th>LETTERA</th>
           <th>SIMBOLO</th>
+          <th>LETTERA</th>
+          <th>SIMBOLO</th>
         </tr>
       </thead>
       <tbody>
-        <tr><td>A</td><td class="legend-symbol">○</td></tr>
-        <tr><td>B</td><td class="legend-symbol">△</td></tr>
-        <tr><td>C</td><td class="legend-symbol">□</td></tr>
-        <tr><td>D</td><td class="legend-symbol">◇</td></tr>
-        <tr><td>E</td><td class="legend-symbol">☆</td></tr>
-        <tr><td>F</td><td class="legend-symbol">♧</td></tr>
-        <tr><td>G</td><td class="legend-symbol">♢</td></tr>
-        <tr><td>H</td><td class="legend-symbol">♤</td></tr>
-        <tr><td>I</td><td class="legend-symbol">♥</td></tr>
-        <tr><td>J</td><td class="legend-symbol">☀</td></tr>
-        <tr><td>K</td><td class="legend-symbol">☁</td></tr>
-        <tr><td>L</td><td class="legend-symbol">☂</td></tr>
-        <tr><td>M</td><td class="legend-symbol">☘</td></tr>
-        <tr><td>N</td><td class="legend-symbol">☾</td></tr>
-        <tr><td>O</td><td class="legend-symbol">♫</td></tr>
-        <tr><td>P</td><td class="legend-symbol">⚡</td></tr>
-        <tr><td>Q</td><td class="legend-symbol">☎</td></tr>
-        <tr><td>R</td><td class="legend-symbol">✈</td></tr>
-        <tr><td>S</td><td class="legend-symbol">⚓</td></tr>
-        <tr><td>T</td><td class="legend-symbol">⚽</td></tr>
-        <tr><td>U</td><td class="legend-symbol">☺</td></tr>
-        <tr><td>V</td><td class="legend-symbol">☠</td></tr>
-        <tr><td>W</td><td class="legend-symbol">✿</td></tr>
-        <tr><td>X</td><td class="legend-symbol">❄</td></tr>
-        <tr><td>Y</td><td class="legend-symbol">☯</td></tr>
-        <tr><td>Z</td><td class="legend-symbol">✦</td></tr>
+        <tr><td>A</td><td class="legend-symbol">○</td><td>N</td><td class="legend-symbol">☾</td></tr>
+        <tr><td>B</td><td class="legend-symbol">△</td><td>O</td><td class="legend-symbol">♫</td></tr>
+        <tr><td>C</td><td class="legend-symbol">□</td><td>P</td><td class="legend-symbol">⚡</td></tr>
+        <tr><td>D</td><td class="legend-symbol">◇</td><td>Q</td><td class="legend-symbol">☎</td></tr>
+        <tr><td>E</td><td class="legend-symbol">☆</td><td>R</td><td class="legend-symbol">✈</td></tr>
+        <tr><td>F</td><td class="legend-symbol">♧</td><td>S</td><td class="legend-symbol">⚓</td></tr>
+        <tr><td>G</td><td class="legend-symbol">♢</td><td>T</td><td class="legend-symbol">⚽</td></tr>
+        <tr><td>H</td><td class="legend-symbol">♤</td><td>U</td><td class="legend-symbol">☺</td></tr>
+        <tr><td>I</td><td class="legend-symbol">♥</td><td>V</td><td class="legend-symbol">☠</td></tr>
+        <tr><td>J</td><td class="legend-symbol">☀</td><td>W</td><td class="legend-symbol">✿</td></tr>
+        <tr><td>K</td><td class="legend-symbol">☁</td><td>X</td><td class="legend-symbol">❄</td></tr>
+        <tr><td>L</td><td class="legend-symbol">☂</td><td>Y</td><td class="legend-symbol">☯</td></tr>
+        <tr><td>M</td><td class="legend-symbol">☘</td><td>Z</td><td class="legend-symbol">✦</td></tr>
       </tbody>
     </table>
   </main>
