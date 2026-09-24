@@ -17,16 +17,15 @@ const tasks = [
   { category: "Religiose", icon: "🤝", text: "Fai un complimento sincero a qualcuno." },
 
   // INTELLETTUALI
-  { category: "Intellettuali", icon: "🔢", text: "Metti in ordine gli elementi. Puoi farlo mentalmente o scrivendo." },
-  { category: "Intellettuali", icon: "🧠", text: "Ricorda la sequenza. Puoi annotarla solo dopo averla memorizzata." },
-  { category: "Intellettuali", icon: "🔐", text: "Decifra il codice usando la legenda." },
-  { category: "Intellettuali", icon: "🧩", text: "Completa il pattern. Puoi risolverlo mentalmente." },
-  { category: "Intellettuali", icon: "➗", text: "Risolvi il calcolo. Carta e penna sono facoltative." },
-  { category: "Intellettuali", icon: "🌀", text: "Risolvi il labirinto tracciando il percorso." },
-  { category: "Intellettuali", icon: "🔤", text: "Completa la parola senza scrivere." },
-  { category: "Intellettuali", icon: "🧐", text: "Trova l’intruso. Puoi risolverlo mentalmente." },
-  { category: "Intellettuali", icon: "🔍", text: "Trova le differenze sulla carta stampata." },
-  { category: "Intellettuali", icon: "❓", text: "Risolvi il mini-enigma e dai la risposta." },
+  { category: "Intellettuali", icon: "🔢", text: "Elenca i numeri in ordine: 47, 12, 83, 26, 91, 35, 68, 14, 57, 72." },
+  { category: "Intellettuali", icon: "🧠", text: "Ricorda la sequenza: ↑ ↑ ↓ ↓ ← → ← → B A ↓ ↓ ↑ ↑ → ← → ← B A. Dopo averla memorizzata, ripetila nell’ordine corretto." },
+  { category: "Intellettuali", icon: "🔐", text: "Decifra il codice usando la legenda: ○ ☘ ♫ ☾ ♢ ☺ ⚓" },
+  { category: "Intellettuali", icon: "🔐", text: "Decifra il codice usando la legenda: ☠ ♥ ☠ ○ ♢ ☆ ⚓ ☺" },
+  { category: "Intellettuali", icon: "🔐", text: "Decifra il codice usando la legenda: ♧ ○ ☾ ⚽ ○ ⚓ ⚽ ♥ □ ♫" },
+  { category: "Intellettuali", icon: "🔐", text: "Decifra il codice usando la legenda: ☂ ♥ △ ✈ ♫ ◇ ♥ ☘ ♫ ✈ ☘ ♫ ☾" },
+  { category: "Intellettuali", icon: "🔤", text: "Ricomponi la parola: E V I L A Z I O N E R" },
+  { category: "Intellettuali", icon: "🔤", text: "Ricomponi le parole: T I N C A O  M E T S A T E N O T" },
+  { category: "Intellettuali", icon: "❓", text: "Pesa di più un chilo di paglia o un chilo di ferro?" },
 
   // SOCIALI
   { category: "Sociali", icon: "😂", text: "Fai ridere qualcuno." },
@@ -73,6 +72,5 @@ tasks.forEach((task, index) => {
     '<div class="task-icon" aria-hidden="true">' + task.icon + '</div>' +
     '<div class="task-text">' + task.text + '</div>' +
     '<div class="footer">AMONG US · TASK</div>';
-
   cards.appendChild(card);
 });
