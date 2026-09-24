@@ -28,12 +28,12 @@ const tasks = [
   { category: "Intellettuali", icon: "❓", text: "Pesa di più un chilo di paglia o un chilo di ferro?" },
 
   // SOCIALI
-  { category: "Sociali", icon: "😂", text: "Fai ridere qualcuno." },
+  { category: "Sociali", icon: "😂", text: "Fai ridere qualcuno. (Un muto dice a un sordo, quel cieco ci spia)" },
   { category: "Sociali", icon: "🤝", text: "Trova qualcuno che ha qualcosa in comune con te." },
   { category: "Sociali", icon: "👋", text: "Presentati a qualcuno con cui hai parlato poco." },
-  { category: "Sociali", icon: "🕵️", text: "Caccia fotografica: trova e fotografa qualcosa seguendo l’indizio ricevuto." },
+  { category: "Sociali", icon: "🕵️", text: "Caccia fotografica: trova e fotografa qualcosa blu, qualcosa di vecchio, qualcosa di nuovo" },
   { category: "Sociali", icon: "🤫", text: "Confidati con qualcuno. Puoi anche mentire." },
-  { category: "Sociali", icon: "📢", text: "Di’ al pulpito che stai facendo un task." },
+  { category: "Sociali", icon: "📢", text: "Di’ al pulpito che stai facendo una task." },
   { category: "Sociali", icon: "✋", text: "Stringi la mano a 10 persone." },
   { category: "Sociali", icon: "👀", text: "Segui qualcuno per 20 secondi." },
   { category: "Sociali", icon: "🚨", text: "Ferma una persona e dille che è “SuS”." },
@@ -42,13 +42,13 @@ const tasks = [
   // FISICHE
   { category: "Fisiche", icon: "🏀", text: "Fai 5 canestri." },
   { category: "Fisiche", icon: "🗿", text: "Rimani perfettamente fermo per 30 secondi." },
-  { category: "Fisiche", icon: "🏃", text: "Porta il testimone in una stanza." },
-  { category: "Fisiche", icon: "🥚", text: "Porta un uovo sodo su un cucchiaio senza farlo cadere." },
-  { category: "Fisiche", icon: "🎈", text: "Tieni il palloncino in aria andando avanti e indietro." },
+  { category: "Fisiche", icon: "🏃", text: "Porta il testimone al piano superiore, o riportalo al piano inferiore." },
+  { category: "Fisiche", icon: "🥚", text: "Porta  l'uovo sodo su un cucchiaio senza farlo cadere fino alla fine." },
+  { category: "Fisiche", icon: "🎈", text: "Tocca 3 muri diversi tenendo il palloncino sempre in aria." },
   { category: "Fisiche", icon: "🪑", text: "Prova 3 sedie diverse." },
   { category: "Fisiche", icon: "🧹", text: "Pulisci la stanza con la scopa." },
   { category: "Fisiche", icon: "🏃‍♂️", text: "Completa un piccolo percorso a ostacoli." },
-  { category: "Fisiche", icon: "🌬️", text: "Vai fuori a prendere un po’ d’aria." },
+  { category: "Fisiche", icon: "🌬️", text: "Vai fuori a prendere un po’ d’aria, te lo meriti." },
   { category: "Fisiche", icon: "🎶", text: "Fai un salto, fanne un altro, fai una giravolta, falla un’altra volta, guarda in su, guarda in giù… niente bacio!" }
 ];
 
