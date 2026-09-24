@@ -49,7 +49,8 @@ const tasks = [
   { category: "Fisiche", icon: "🧹", text: "Pulisci la stanza con la scopa." },
   { category: "Fisiche", icon: "🏃‍♂️", text: "Completa un piccolo percorso a ostacoli." },
   { category: "Fisiche", icon: "🌬️", text: "Vai fuori a prendere un po’ d’aria, te lo meriti." },
-  { category: "Fisiche", icon: "", text: "Fai un salto, fanne un altro, fai una giravolta, falla un’altra volta, guarda in su, guarda in giù… niente bacio!" }
+  { category: "Fisiche", icon: "", text: "Fai un salto, fanne un altro, fai una giravolta, falla un’altra volta, guarda in su, guarda in giù… niente bacio!" },
+  { category: "Fisiche", icon: "📦", text: "Riporta le task completate al dirigente." }
 ];
 
 const categoryClass = {
