@@ -1,6 +1,6 @@
 const tasks = [
   // RELIGIOSE
-  { category: "Religiose", icon: "📖", text: "Di che cosa parla pagina [TBD]?" },
+  { category: "Religiose", icon: "📖", text: "Di che cosa parla pagina 627?" },
   { category: "Religiose", icon: "🔎", text: "In che pagina si trova Alma 32:21?" },
   { category: "Religiose", icon: "🔎", text: "In che pagina si trova 1 Nefi 3:7?" },
   { category: "Religiose", icon: "🔎", text: "In che pagina si trova Helaman 5:12?" },
